@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Survey Page</title>
+
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+            integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery.js"></script>
+
+
+    </head>
+
+    <body>
+
+        <div class="container">
+
+            <div class="jumbotron">
+                <h1 class="text-center"><span class="glyphicon glyphicon-fire"></span> Just Friends Activity Finder</h1>
+                <hr>
+                <h2 class="text-center">Find someone near you to enjoy an activity with</h2>
+                <br>
+
+                <div class="text-center">
+                    <a href="/survey" type="button" class="btn btn-lg btn-primary"><span
+                            class="glyphicon glyphicon-list-alt"></span>Reset Survey</button></a>
+
+                </div>
+
+
+            </div>
+            <div>
+
+                <div class="card-body">
+                    <form role="form">
+                        <div class="form-group">
+                            <label for="reserve-name">Name</label>
+                            <input type="text" class="form-control" id="name">
+                        </div>
+                        <div class="form-group">
+                            <label for="reserve-phone">Favorite Team</label>
+                            <input type="text" class="form-control" id="favorite-team">
+                        </div>
+                    </form>
+                </div>
+                <div>
+                    <h1>Choose your rating about each sport (5 strongly like) and (1 strongly dislike)</h1>
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlSelect1">
+                        <h2>Question 1</h2>
+                        <h3>How much do you enjoy playing soccer?</h3>
+                    </label>
+                    <select class="form-control" id="question1">
+                        <option value="5">5</option>
+                        <option value="4">4</option>
+                        <option value="3">3</option>
+                        <option value="2">2</option>
+                        <option value="1">1</option>
+                    </select>
+
+                    <label for="exampleFormControlSelect1">
+                        <h2>Question 2</h2>
+                        <h3>How much do you enjoy playing tennis?</h3>
+                    </label>
+                    <select class="form-control" id="question2">
+                        <option value="5">5</option>
+                        <option value="4">4</option>
+                        <option value="3">3</option>
+                        <option value="2">2</option>
+                        <option value="1">1</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlSelect1">
+                        <h2>Question 3</h2>
+                        <h3>How much do you enjoy playing basektball?</h3>
+                    </label>
+                    <select class="form-control" id="question3">
+                        <option value="5">5</option>
+                        <option value="4">4</option>
+                        <option value="3">3</option>
+                        <option value="2">2</option>
+                        <option value="1">1</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlSelect1">
+                        <h2>Question 4</h2>
+                        <h3>How much do you enjoy playing golf?</h3>
+                    </label>
+                    <select class="form-control" id="question4">
+                        <option value="5">5</option>
+                        <option value="4">4</option>
+                        <option value="3">3</option>
+                        <option value="2">2</option>
+                        <option value="1">1</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlSelect1">
+                        <h2>Question 5</h2>
+                        <h3>How much do you enjoy playing football?</h3>
+                    </label>
+                    <select class="form-control" id="question5">
+                        <option value="5">5</option>
+                        <option value="4">4</option>
+                        <option value="3">3</option>
+                        <option value="2">2</option>
+                        <option value="1">1</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlSelect1">
+                        <h2>Question 6</h2>
+                        <h3>How much do you enjoy hiking?</h3>
+                    </label>
+                    <select class="form-control" id="question6">
+                        <option value="5">5</option>
+                        <option value="4">4</option>
+                        <option value="3">3</option>
+                        <option value="2">2</option>
+                        <option value="1">1</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlSelect1">
+                        <h2>Question 7</h2>
+                        <h3>How much do you enjoy playing rock climbing?</h3>
+                    </label>
+                    <select class="form-control" id="question7">
+                        <option value="5">5</option>
+                        <option value="4">4</option>
+                        <option value="3">3</option>
+                        <option value="2">2</option>
+                        <option value="1">1</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlSelect1">
+                        <h2>Question 8</h2>
+                        <h3>How much do you enjoy running?</h3>
+                    </label>
+                    <select class="form-control" id="question8">
+                        <option value="5">5</option>
+                        <option value="4">4</option>
+                        <option value="3">3</option>
+                        <option value="2">2</option>
+                        <option value="1">1</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlSelect1">
+                        <h2>Question 9</h2>
+                        <h3>How much do you enjoy biking?</h3>
+                    </label>
+                    <select class="form-control" id="question9">
+                        <option value="5">5</option>
+                        <option value="4">4</option>
+                        <option value="3">3</option>
+                        <option value="2">2</option>
+                        <option value="1">1</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlSelect1">
+                        <h2>Question 10</h2>
+                        <h3>How much do you enjoy being lazy and watching sports?</h3>
+                    </label>
+                    <select class="form-control" id="question10">
+                        <option value="5">5</option>
+                        <option value="4">4</option>
+                        <option value="3">3</option>
+                        <option value="2">2</option>
+                        <option value="1">1</option>
+                    </select>
+                </div>
+
+                <button type="submit" class="btn btn-primary submit">Submit</button>
+
+
+
+
+            </div>
+
+            <footer class="footer">
+                <div class="container">
+                    <p><a href="/api/friends">API Friends List</a> | <a href="/githubrepo">GitHub Repo</a></p>
+                </div>
+            </footer>
+
+        </div>
+
+
+    </body>
+
+</html>
+
+<script type="text/javascript">
+
+
+
+    $( ".submit" ).on( "click", function ( event ) {
+        event.preventDefault();
+
+        var scores = []
+
+        var newFriend = {
+            name: $( "#name" ).val().trim(),
+            favoriteTeam: $( "#favorite-team" ).val().trim(),
+            scores: [
+                $( "#question1" ).val(),
+                $( "#question2" ).val(),
+                $( "#question3" ).val(),
+                $( "#question4" ).val(),
+                $( "#question5" ).val(),
+                $( "#question6" ).val(),
+                $( "#question7" ).val(),
+                $( "#question8" ).val(),
+                $( "#question9" ).val(),
+                $( "#question10" ).val()
+
+            ]
+
+        };
+
+        console.log( newFriend );
+        $.post( "/api/friends", newFriend,
+            function ( data ) {
+            } )
+        // newArray();
+        // function newArray( scores ) {
+        //     var questionAnswers = [];
+        //     questionAnswers.push( newFriend.scores );
+        //     var splitAnswers = questionAnswers.toString().split( ',' ).push( questionAnswers );
+
+        //     console.log( questionAnswers )
+        //     // console.log( answers )
+        //     // for ( var i = 0; i < questionAnswers.length; i++ ) {
+        //     //     var splitAnswers = [];
+
+        //     //     var answers = parseInt( splitAnswers );
+        //     //     console.log( answers )
+        //     // }
+    }
+
+    )
+
+
+
+</script>
+
+<!-- LEFT TO DO -->
+
+<!-- GET SCORES FROM OBJECTS
+    PUT INTO NEW ARRAY??-------DONE
+    CHANGE THE STRING SCORES TO NUMBERS (PARSE)
+    COMPARE EACH INDIVIDUAL ELEMENT IN THE ARRAYS
+    ADD UP THE DIFFERENCES OF EACH QUESTION
+    ABSOLUTE VALUES
+    DISPLAY THE MATCH OF THE INDIVIDUAL WITH OTHER USERS
+      -->
